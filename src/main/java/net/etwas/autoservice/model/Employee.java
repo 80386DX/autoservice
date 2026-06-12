@@ -20,6 +20,9 @@ public class Employee extends Human{
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(unique = true, name = "e_mail", nullable = false)
+    private String email;
+
     private Double salary;
 
     @OneToMany

@@ -33,5 +33,6 @@ public class Work {
     private Double workHours;
 
     private WorkType workType;
+    private String description;
 
 }
