@@ -1,0 +1,9 @@
+package net.etwas.autoservice.repo;
+
+import net.etwas.autoservice.model.Customer;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CustomerRepo extends JpaRepository<Customer, Long> {
+
+
+}
