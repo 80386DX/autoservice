@@ -1,5 +1,10 @@
 package net.etwas.autoservice.common;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@Getter
+@AllArgsConstructor
 public enum Fuel {
 
     P("Petrol"),
@@ -7,11 +12,4 @@ public enum Fuel {
 
     private final String fuelType;
 
-    public String getFuelType() {
-        return fuelType;
-    }
-
-    Fuel(String fuelType) {
-        this.fuelType = fuelType;
-    }
 }
